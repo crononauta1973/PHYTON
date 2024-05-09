@@ -61,15 +61,15 @@ def obtener_entero_positivo(mensaje):
 if __name__ == "__main__":
     lista_tareas = ListaTareas()  # Crear una instancia de la lista de tareas
 
-    print("¡Bienvenidos a la gestión de tareas para el viaje de la familia García al Polo Norte!")
+    print("¡Bienvenidos/Welcome/Willkommen a la gestión de tareas para el viaje de la familia García al Polo Norte!")
 
     while True:
         # Menú de opciones para el usuario
         print("\n1. Agregar nueva tarea")
         print("2. Marcar tarea como completada")
-        print("3. Mostrar todas las tareas")
-        print("4. Eliminar tarea")
-        print("5. Salir")
+        print("3. Mostrar/Show todas las tareas")
+        print("4. Eliminar/Delete tarea")
+        print("5. Salir/Exit")
 
         opcion = obtener_entero_positivo("\nIngrese el número de la opción deseada: ")
 
@@ -94,7 +94,7 @@ if __name__ == "__main__":
             lista_tareas.eliminar_tarea(posicion)  # Eliminar la tarea seleccionada
 
         elif opcion == 5:
-            print("¡Hasta luego!")
+            print("¡Hasta luego Baby!")
             break
 
         else:
